@@ -6,7 +6,8 @@
 
 	.main-header,
 	.main-nav,
-	.row {
+	.row,
+	.col {
 		display: flex;
 	}
 
@@ -17,6 +18,15 @@
 
 	.col {
 		flex: 1;
+		flex-direction:column;
+	}
+	.col a{
+		/* align-self: end;
+		margin-top: auto; */
+	}
+	.button{
+		margin-top: auto;
+		align-self:flex-end
 	}
 
 }
@@ -27,5 +37,9 @@
 		flex-direction: row;
 		justify-content: space-between;
 	}
+	/* .button{
+		margin-top: auto;
+		align-self:flex-end
+	} */
 
 }
